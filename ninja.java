@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
-//   SHIFT + F10 O RUNNNNNNNNNN
+
 public class ninja {
     public static void main(String[] args) throws IOException {
 
@@ -15,12 +15,15 @@ public class ninja {
 //            str=str+arr[i];
 //        }
 //        System.out.println(str);
+        
+        
 //        int n=13;
 //        double d=(1+Math.sqrt(5))/2;
 //        int ans=(int)Math.round(Math.pow(d,n)/Math.sqrt(5));
 //        System.out.println(ans);
+        
+        
         for (int i = 0; i < 1; i++) {
-
             for (int j = 0; j <1 ; j++) {
                 System.out.println("j");
                 break;
@@ -28,30 +31,23 @@ public class ninja {
             System.out.println("i");
         }
 
-//        long startTime = System.currentTimeMillis();
-//        StringBuffer sb = new StringBuffer("Java");
-//        for (int i=0; i<10000; i++){
-//            sb.append("Tpoint");
-//        }
-//        System.out.println("Time taken by StringBuffer: " + (System.currentTimeMillis() - startTime) + "ms");
-//        startTime = System.currentTimeMillis();
-//        StringBuilder sb2 = new StringBuilder("Java");
-//        for (int i=0; i<10000; i++){
-//            sb2.append("Tpoint");
-//        }
-//        System.out.println("Time taken by StringBuilder: " + (System.currentTimeMillis() - startTime) + "ms");
+
 //        for (long i = 1; i <= 100; i++) {
 //            if(checkprime(i))
 //            System.out.println(i);
 //        }
+        
+        
 //        int max=Integer.MAX_VALUE;
 //        int n=3;
-//        n=n<<3;
+//        n=n<<3;  2 pow 3
 //        System.out.println(max);
 //        System.out.println(n);
 //        int sum=10*(11)>>1;
+        
+         
 //        int num=12342222,num2=0;
-//        num=(int)(Math.log10(num))+1;
+//        num=(int)(Math.log10(num))+1; /* number of digits in a number */
 //        System.out.println(num);
        // System.out.println(gcd(12,16));
 //      //  System.out.println(checkPowOf2(8));
