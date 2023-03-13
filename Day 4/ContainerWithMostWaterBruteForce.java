@@ -2,6 +2,9 @@ package dsaone;
 
 public class ContainerWithMostWater {
     public static void main(String[] args) {
+        /* this is brute force approach */
+        /* time complexity is O(n^2)*/
+        /* GIVES TLE*/
         int[] arr={1,8,6,2,5,4,8,3,7};
         int maxarea=0;
         for(int i=0;i<arr.length;i++){
