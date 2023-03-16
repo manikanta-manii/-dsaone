@@ -92,4 +92,11 @@ public class ninja {
         String strA=Integer.toString(a,2);
         System.out.println(strA);
     }
+    /* BInary to innt */;
+    public String addBinary(String a, String b) {
+        int x=Integer.parseInt(a,2);  
+        int y=Integer.parseInt(b,2);  
+        x=x+y;
+        return Integer.toString(x,2);
+    }
 }
