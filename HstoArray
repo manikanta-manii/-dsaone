@@ -1,0 +1,9 @@
+Convert Hashset into Arary
+
+int arr[]=new int[hs.size()];
+        int i=0;
+        for(int x:hs){
+            arr[i++]=x;
+        }
+        
+ return arr;
